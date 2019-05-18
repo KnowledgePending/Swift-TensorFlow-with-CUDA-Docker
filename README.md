@@ -1,4 +1,6 @@
+<p>
 <img src="images/logo.png" allign="center">  
+
 # Swift TensorFlow with CUDA Docker environment
 * From within the directory of the Dockerfile execute the following command  
 ```BASH
