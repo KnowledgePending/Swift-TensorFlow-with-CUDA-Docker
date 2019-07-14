@@ -21,7 +21,7 @@ docker run -v <host_path>:<container_path> -ti swift_tf_cuda_docker:latest bash
 * Go to the repository page [bryankp/swift_tf_cuda](https://hub.docker.com/r/bryankp/swift_tf_cuda)
 * Pull the latest image
 ```BASH
-docker push bryankp/swift_tf_cuda:latest
+docker pull bryankp/swift_tf_cuda:latest
 ```
 
 ### Further Details
