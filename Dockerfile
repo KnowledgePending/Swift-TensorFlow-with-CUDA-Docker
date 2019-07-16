@@ -1,4 +1,8 @@
 FROM nvidia/cuda:9.2-devel
+
+MAINTAINER Bryan Flood <bryanfloodcontact@gmail.com>
+LABEL description="🐳 Docker environment for Swift GPU Accelerated Machine Learning"
+
 RUN apt-get -qq update
 RUN apt-get -qq upgrade
 
