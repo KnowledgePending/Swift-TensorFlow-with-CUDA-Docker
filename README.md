@@ -8,6 +8,9 @@
 * Swift 5.0
 * TensorFlow for Swift v0.3.1
 
+### Required
+* Follow [nvidia-docker instructions](https://github.com/NVIDIA/nvidia-docker)
+
 ## Option 1. Build Docker Image
 * From within the directory of the Dockerfile execute the following command to build the image
 ```BASH
@@ -28,3 +31,4 @@ docker pull bryankp/swift_tf_cuda:latest
 * [TensorFlow for Swift](https://www.tensorflow.org/swift)
 * The initial run of a TF program will take a decent amount time to start this is normal
 * For troubleshooting issues see the [TF installation guide](https://github.com/tensorflow/swift/blob/master/Installation.md)
+and [nvidia-docker instructions](https://github.com/NVIDIA/nvidia-docker)
