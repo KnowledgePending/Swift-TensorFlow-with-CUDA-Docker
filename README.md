@@ -1,4 +1,4 @@
-<img src="https://github.com/KnowledgePending/Swift-TensorFlow-with-CUDA-Docker/blob/master/images/logo.png?raw=true" width ="900" height="140""> 
+<img src="https://github.com/KnowledgePending/Swift-TensorFlow-with-CUDA-Docker/blob/master/images/logo.png?raw=true" width ="900" height="140"> 
 
 # Swift TensorFlow with CUDA Docker environment
 ## Image details
