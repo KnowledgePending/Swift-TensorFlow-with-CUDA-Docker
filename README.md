@@ -17,7 +17,7 @@ docker build -t swift_tf_cuda_docker .
 ```
 * To run with bash and a shared volume
 ```BASH
-docker run -v <host_path>:<container_path> -ti swift_tf_cuda_docker:latest bash
+docker run --runtime=nvidia -v <host_path>:<container_path> -ti swift_tf_cuda_docker:latest bash
 ```
 ## Option 2. Pull image from Docker Hub
 * Go to the repository page [bryankp/swift_tf_cuda](https://hub.docker.com/r/bryankp/swift_tf_cuda)
