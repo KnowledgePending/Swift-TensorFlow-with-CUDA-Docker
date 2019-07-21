@@ -4,9 +4,9 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/bryankp/swift_tf_cuda.svg)](https://hub.docker.com/r/bryankp/swift_tf_cuda)
 ## Image details
 * Ubuntu 18.04 Bionic
-* CUDA 9.2 devel
+* CUDA 10.0
 * Swift 5.0
-* TensorFlow for Swift v0.3.1
+* TensorFlow for Swift v0.4
 
 ### Required
 * Follow [nvidia-docker instructions](https://github.com/NVIDIA/nvidia-docker)
