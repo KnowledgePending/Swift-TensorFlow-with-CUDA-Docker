@@ -26,6 +26,10 @@ docker run --runtime=nvidia -v <host_path>:<container_path> -ti swift_tf_cuda_do
 ```BASH
 docker pull bryankp/swift_tf_cuda:latest
 ```
+* To run with bash and a shared volume
+```BASH
+docker run --runtime=nvidia -v <host_path>:<container_path> -ti bryankp/swift_tf_cuda_docker:latest bash
+```
 ### Example Programs
 * Official Tensorflow [swift-models](https://github.com/tensorflow/swift-models)
 
