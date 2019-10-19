@@ -38,7 +38,3 @@ docker run --runtime=nvidia -v <host_path>:<container_path> -ti bryankp/swift_tf
 * The initial run of a TF program will take a decent amount time to start this is normal
 * For troubleshooting issues see the [TF installation guide](https://github.com/tensorflow/swift/blob/master/Installation.md)
 and [nvidia-docker instructions](https://github.com/NVIDIA/nvidia-docker)
-* To use the swift repl while running docker on macos the container needs to be run with the following flag --privileged
-    * Example ```docker run --privileged --runtime=nvidia -v <host_path>:<container_path> -ti bryankp/swift_tf_cuda_docker:latest bash```
-    * see https://github.com/apple/swift-docker/issues/9
-
